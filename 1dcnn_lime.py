@@ -231,7 +231,7 @@ for i in range(len(y_test)):
   elif y_pred[i] == 8:
     y_pred_labels_1.append('ursnif')
 
-print(y_pred_labels_1)
+#print(y_pred_labels_1)
 
 y_test_labels = []
 
@@ -320,7 +320,7 @@ for i in range (0,100):
   if y_pred_labels_1[i] !='shade':
     noteshade.append(i)
 
-print(noteshade)
+#print(noteshade)
 
 for i in range(0,100):
     # Change the instance
