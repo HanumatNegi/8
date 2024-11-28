@@ -315,10 +315,7 @@ for i in range(30,50):
     print(f"Explanation for instance {i}:")
     exp.show_in_notebook(show_table=True)
 
-noteshade=[]
-for i in range (0,100):
-  if y_pred_labels_1[i] !='shade':
-    noteshade.append(i)
+
 
 #print(noteshade)
 
